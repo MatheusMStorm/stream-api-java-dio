@@ -1,0 +1,14 @@
+1. Operações intermediárias
+
+sorted(): classifica os elementos da Stream em ordem natural. Ex: stream.sorted()
+distinct(): remove elementos duplicados da Stream
+skip(): pula os primeiros n elementos da Stream
+
+2. Operações terminais
+toArray(): converte em um array 
+count(): número de elementos da Stream
+anyMatch(): verifica se algum elemento da Stream atende ao predicado especificado
+allMatch(): verifica se todos os elementos da Stream atendem ao predicado especificado
+noneMatch(): verifica se nenhum elemento da Stream atende ao predicado especificado
+min(): valor mínimo de acordo com um Comparator
+max(): valor máximo de acordo com um Comparator
